@@ -4,6 +4,8 @@ title:      "Signing an Android app for a custom Android build"
 subtitle:   ""
 date:       2014-08-06 19:48:00
 author:     "Sriram"
+tags: [framework, security, android]
+categories: [android, development]
 header-img: "img/post-bg-01.jpg"
 ---
 
