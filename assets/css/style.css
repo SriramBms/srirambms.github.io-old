@@ -183,3 +183,21 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+/* custom css */
+
+.gallery-image-link{
+	display: inline-block;
+	padding: 2px;
+	margin: 0 0.5rem 1rem 0.5rem;
+	background-color: #fff;
+	line-height: 0;
+	border-radius: 4px;
+	transition: background-color 0.5s ease-out; }
+	.gallery-image-link:hover {
+		background-color: #4ae;
+		transition: none; }
+
+.gallery-image {
+	width:7rem;
+	border-radius: 4px;
+}

@@ -1,0 +1,21 @@
+<p>In the root folder,</p>
+
+<p><code>. build/envsetup.sh</code><br />
+<code>lunch sdk-eng </code> <br />
+<code>make sdk </code></p>
+
+<p>Once it’s done, the sdk can be found in the <code>/out/host/linux-x86/sdk/</code> folder. The simplest way to use the new sdk, in case you’ve added a new API, is by adding the new <code>android.jar</code>to build path.  </p>
+
+<h5 id="note">NOTE</h5>
+<blockquote>
+  <p>And droid doc errors (Error 45) can be resolved by executing <br />
+<code>git revert 5f9922d7c3bce158e4c7a58929d4075e7c91e32e</code> in the <code>&lt;src&gt;/frameworks/base</code> folder <sup id="fnref:err"><a href="#fn:err" class="footnote">1</a></sup>.</p>
+</blockquote>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:err">
+      <p><a href="https://groups.google.com/forum/#!topic/android-building/fo--bOxDTPQ">https://groups.google.com/forum/#!topic/android-building/fo–bOxDTPQ :</a> <a href="#fnref:err" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>

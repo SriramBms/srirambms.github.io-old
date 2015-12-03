@@ -5,26 +5,28 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: 
+google_analytics: 
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: re:blog
 
-description: Stylish Jekyll Theme
+description: fastboot flashall
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Sriram
+  full_name: Sriram Shantharam
+  email: sram.bms@gmail.com
+  github: SriramBms
+  twitter: 
+  pinterest:
+  instagram: sriram_s_ 
+  linkedin: sriramsh
+  bio: I'm an Android developer who dabbles in a bunch of other things in my spare time.
+  email_md5: 
 
 rss_path: feed.xml
 categories_path: categories.html

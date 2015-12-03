@@ -1,0 +1,15 @@
+<p>If you’re building Android for a new device that’s still in development, you need to add it to the file at <code>/etc/udev/rules.d/51-android.rules</code> to access the device<sup id="fnref:usba"><a href="#fn:usba" class="footnote">1</a></sup>.</p>
+
+<p>To do this, you need the <code>idProduct</code> and <code>idVendor</code> of the new Android device. </p>
+
+<p><code>lsusb -v</code></p>
+
+<p>This command lists all the USB devices connected to the system and can be used to populate the <code>51-android.rules</code> file.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:usba">
+      <p><a href="https://source.android.com/source/initializing.html#configuring-usb-access">Configuring USB Access :</a> <a href="#fnref:usba" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
