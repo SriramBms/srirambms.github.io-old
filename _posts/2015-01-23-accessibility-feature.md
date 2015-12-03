@@ -4,6 +4,8 @@ title:      "Accessibility Feature For The Color Blind"
 subtitle:   ""
 date:       2015-01-23 16:00:00
 author:     "Sriram"
+tags: [hackathon, framework, android, accessibility, settings, jni, native, NDK]
+categories: [android, development, hacking]
 header-img: "img/post-bg-01.jpg"
 ---
 
