@@ -4,6 +4,8 @@ title:      "Building the Android sdk"
 subtitle:   ""
 date:       2015-02-13 22:18:00
 author:     "Sriram"
+tags: [android, sdk, building]
+categories: [android, development]
 header-img: "img/post-bg-01.jpg"
 ---
 
