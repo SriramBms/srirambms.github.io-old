@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: re:blog
+      title: blog
 
 description: fastboot flashall
 author:
