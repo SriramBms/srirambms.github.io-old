@@ -1,0 +1,46 @@
+---
+theme :
+name : re:blog
+---
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+  <meta name="author" content="{{ site.author.name }}">
+
+ 
+  <!-- Le styles -->
+  <link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/reset-plx.css">
+  <link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/style-plx.css">
+ 
+
+  
+</head>
+
+<body>
+  
+
+  
+
+  
+
+  
+{{ content }}
+
+    
+  
+
+  <script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+
+
+</body>
+</html>
