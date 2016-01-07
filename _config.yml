@@ -25,13 +25,14 @@ author:
   github: SriramBms
   twitter: 
   pinterest:
-  instagram: sriram_s_ 
-  linkedin: sriramsh
+  instagram:
+  linkedin:
   bio: I'm an Android developer who dabbles in a bunch of other things in my spare time.
   email_md5: 
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+about_path: about.html
 
 BASE_PATH:
